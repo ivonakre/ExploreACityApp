@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ExploreACityApp</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+
+<!--    NOVO-->
+    <string name="login_button_string">Prijava</string>
+    <string name="password_hint_string">Unesite lozinku</string>
+    <string name="email_hint_string">Unesite email</string>
+    <string name="logo_string">Explore a city</string>
+    <string name="navigation_drawer_open">Otvori</string>
+    <string name="navigation_drawer_close">Zatvori</string>
+    <string name="click_register">Klikni za registraciju!</string>
+    <string name="click_login">Klinkni za prijavu!</string>
+    <string name="profile_image_description">Profilna slika</string>
+    <string name="tab_layout_description">Navigacijski tabovi</string>
+</resources>

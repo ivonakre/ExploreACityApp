@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/cityItemImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:elevation="5dp"
+            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/cityItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"
+            android:elevation="2dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Naziv grada"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/cityItemPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="5dp"
+            android:text="Znamenitost za posjetiti"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/place_icon" />
+
+        <TextView
+            android:id="@+id/cityItemRestaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="5dp"
+            android:text="Najbolj restoran"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/restaurant_icon" />
+
+        <TextView
+            android:id="@+id/cityItemText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="5dp"
+            android:text="Tekst"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/text_icon" />
+
+        <RatingBar
+            android:id="@+id/cityItemRating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:numStars="5"
+            android:rating="4.5"
+            android:stepSize="0.5"
+            android:layout_gravity="center"
+            android:isIndicator="false" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

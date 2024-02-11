@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Drawer items with icons -->
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profil"
+        android:icon="@drawable/profile_icon" /> <!-- Reference to your profile icon -->
+
+    <item
+        android:id="@+id/nav_city"
+        android:title="Gradovi"
+        android:icon="@drawable/city_icon"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Odjava"
+        android:icon="@drawable/logout_icon" /> <!-- Reference to your logout icon -->
+
+</menu>

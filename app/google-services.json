@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "981029721266",
+    "project_id": "exploreacityapp",
+    "storage_bucket": "exploreacityapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981029721266:android:7b295b38e0c0c5dc2a25ab",
+        "android_client_info": {
+          "package_name": "ba.sum.fpmoz.exploreacityapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwbuwzObCsiCuqVICz6PdCsM3YFBKhzKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
