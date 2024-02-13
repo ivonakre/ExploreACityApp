@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
             String userId = mAuth.getCurrentUser().getUid();
             usersDbRef.child(userId).addListenerForSingleValueEvent(new ValueEventListener() {
                 //ovo rekao ispod da ness pobrisem
-                 @Override
+                @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     try {
                         User user = dataSnapshot.getValue(User.class);

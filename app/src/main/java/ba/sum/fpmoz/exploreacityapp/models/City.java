@@ -6,12 +6,11 @@ import java.util.Map;
 
 @IgnoreExtraProperties
 public class City {
-
-    public String image;
     public String name;
     public String place;
     public String restaurant;
     public String text;
+    public String image;
     public Map<String, Float> ratings;
 
     // NOVO
@@ -20,12 +19,12 @@ public class City {
         // Prazan konstruktor
     }
 
-    public City(String image, String name, String place, String restaurant, String text, HashMap<String, Float> ratings){
-        this.image = image;
+    public City(String name, String place, String restaurant, String text, String image, HashMap<String, Float> ratings){
         this.name = name;
         this.place = place;
         this.restaurant = restaurant;
         this.text = text;
+        this.image = image;
         this.ratings = ratings;
     }
 
